@@ -13,7 +13,7 @@ Welcome to the Binary Classifier Models repository. This library provides two si
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/myrodar/AI_cookbook.git
    cd your-repo
    ```
 2. (Optional) Create and activate a virtual environment:
