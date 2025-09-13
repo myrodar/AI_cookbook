@@ -7,7 +7,7 @@ Welcome to the Binary Classifier Models repository. This library provides two si
 ## Models
 
 - Decision Tree (`dt.py`): A depth-limited decision tree that splits features based on thresholding at 0.5.
-- Perceptron (`perceptron.py`): A classic single-layer perceptron suitable for linearly separable data.
+- Perceptron (`main.py`): A classic single-layer perceptron suitable for linearly separable data.
 
 ## Installation
 
@@ -46,9 +46,21 @@ Coming soon!
 - `__repr__()` / `displayTree()`  
   Print a human-readable representation of the tree.
 
+### Perceptron
+This folder contains two scripts.
+
+
 
 ## Contributing
+This folder contains two scripts:
 
+- `main.py` is the main script for the raw perceptron. It contains the Perceptron class and its main function to instantiate, train, and predict based on the data you provide.
+
+- `test.py` uses the Perceptron implementation from `main.py` and generates a visual representation of the decision boundary, allowing you to see how the single neuron learns.
+
+- **Challenge:** Try swapping the generated dataset for the Iris dataset. Be sure to use only two classes from the Iris dataset, as a perceptron can only perform binary classification.
+## Contributing
+Contributions are welcome. To contribute:
 Contributions are welcome. To contribute:
 
 1. Fork the repository.
