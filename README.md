@@ -46,17 +46,6 @@ Coming soon!
 - `__repr__()` / `displayTree()`  
   Print a human-readable representation of the tree.
 
-### Perceptron (`perceptron.py`)
-
-- `Perceptron(learning_rate: float, max_iter: int)`  
-  Initialize with learning rate and maximum number of iterations.
-
-- `train(X: np.ndarray, Y: Sequence[int])`  
-  Fit the perceptron to the data.
-
-- `predict(X: np.ndarray) -> np.ndarray`  
-  Predict labels (`-1` or `1`) for a batch of samples.
-
 
 ## Contributing
 
